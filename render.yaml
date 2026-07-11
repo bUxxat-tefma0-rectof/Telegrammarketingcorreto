@@ -1,0 +1,12 @@
+version: 1
+services:
+  - type: web
+    name: marketing-xixa
+    runtime: docker
+    dockerfilePath: Dockerfile
+    envVars:
+      - key: ENV
+        value: production
+databases:
+  - name: postgres
+    databaseName: xixa00marketingoff
