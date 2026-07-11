@@ -11,3 +11,5 @@ structlog==25.1.0
 tenacity==9.0.0
 qrcode[pil]==8.0
 supervisor==4.2.5
+psycopg2-binary==2.9.10
+Pillow==11.0.0
